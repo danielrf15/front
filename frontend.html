@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>LOVE LUXE BY EA — Fashion is Freedom | Est. 2024</title>
+    <meta name="description"
+        content="LoveLuxe by EA. Est. 2024. Apparel, Bags, Perfumes and modern luxury silhouettes rooted in unapologetic individuality. Fashion is freedom." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="loveluxe2.png">
+
+    <!-- Editorial Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Playfair+Display:ital@1&display=swap"
+        rel="stylesheet">
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="frontend.css">
+</head>
+
+<body>
+
+    <!-- Custom Golden Cursor -->
+    <div class="custom-cursor" id="cursor"></div>
+    <div class="cursor-follower" id="follower"></div>
+
+    <!-- Scroll Progress -->
+    <div id="scroll-progress"></div>
+
+    <!-- Ambient Light Shimmer Canvas -->
+    <canvas id="ambient-canvas"></canvas>
+
+    <!-- 1. NAVIGATION -->
+    <header class="site-nav" id="main-nav">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-group" aria-label="LoveLuxe by EA Home">
+
+                <!-- OFFICIAL CIRCULAR SEAL (NAVBAR) -->
+                <div class="loveluxe-seal seal-nav">
+                    <img src="loveluxe2.png" alt="LoveLuxe by EA Official Seal">
+                </div>
+
+                <div class="brand-text-block">
+                    <span class="brand-title">LoveLuxe <span>by EA</span></span>
+                    <span class="brand-tagline">Fashion is Freedom — Est. 2024</span>
+                </div>
+            </a>
+
+            <nav>
+                <ul class="nav-center">
+                    <li><a href="#collections" class="nav-link link-hover">Lookbook</a></li>
+                    <li><a href="#manifesto" class="nav-link link-hover">The Manifesto</a></li>
+                    <li><a href="#atelier" class="nav-link link-hover">Private Services</a></li>
+                    <li><a href="#concierge" class="nav-link link-hover">Concierge</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-right">
+                <span class="est-badge">EST. 2024</span>
+                <a href="login.html" class="btn btn-outline nav-portal-btn">• Step into the extraordinary</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 2. HERO SECTION -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-grid">
+                <div>
+                    <div class="hero-manifesto-badge">LOVELUXE BY EA — Est. 2024</div>
+                    <h1 class="hero-title">
+                        Fashion is <em>freedom</em>. <br />
+                        Luxury without <strong>compromise</strong>.
+                    </h1>
+                    <p class="hero-desc">
+                        LoveLuxe by EA is created to liberate personal expression through self-care,
+                        sophistication, elegance, and timeless gold craftsmanship.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#collections" class="btn btn-gold">Explore The Collection</a>
+                        <a href="login.html" class="btn btn-outline">• Step into the extraordinary <span>→</span></a>
+                    </div>
+                </div>
+
+                <div class="hero-stage-container">
+                    <div class="hero-showpiece-frame">
+                        <div class="showpiece-inner">
+                            <img src="owner.jpg" alt="LoveLuxe by EA Preview" class="showpiece-img" />
+                            <div class="showpiece-watermark">
+                                <p>Capsule Premiere — 2026</p>
+                                <h4>The Sovereign Silhouette</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SELECTED LOOKBOOK / COLLECTIONS -->
+        <section class="section-spacing" id="collections">
+            <div class="container">
+                <div class="section-header">
+                    <div class="eyebrow">01 / The Runway</div>
+                    <h2 class="section-title">Selected Apparel &amp; Goods</h2>
+                    <p class="section-desc">Luxury apparel and signature perfumes designed for those who command their
+                        own presence.</p>
+                </div>
+
+                <div class="collection-grid">
+                    <!-- Look 1: Dresses & Ternos -->
+                    <article class="look-card">
+                        <div class="look-img-wrap">
+                            <img src="terno.jpg" alt="Dresses and Ternos Collection" class="look-img" loading="lazy" />
+                            <div class="look-overlay"></div>
+                        </div>
+                        <div class="look-meta">
+                            <h3 class="look-title">Dresses &amp; Ternos</h3>
+                            <span class="look-edition">[ Edition 01 ]</span>
+                        </div>
+                        <div class="look-sub">
+                            <span>Created for Elegance &amp; Comfort</span>
+                        </div>
+                    </article>
+
+                    <!-- Look 2: Bento Bags -->
+                    <article class="look-card">
+                        <div class="look-img-wrap">
+                            <img src="bentobag.png" alt="Bento Bags Collection" class="look-img" loading="lazy" />
+                            <div class="look-overlay"></div>
+                        </div>
+                        <div class="look-meta">
+                            <h3 class="look-title">Bento Bags</h3>
+                            <span class="look-edition">[ Edition 02 ]</span>
+                        </div>
+                        <div class="look-sub">
+                            <span>Sculptural Pleated Form</span>
+                        </div>
+                    </article>
+
+                    <!-- Look 3: Bucket Bags -->
+                    <article class="look-card">
+                        <div class="look-img-wrap">
+                            <img src="bucket.jpg" alt="Bucket Bags Collection" class="look-img" loading="lazy" />
+                            <div class="look-overlay"></div>
+                        </div>
+                        <div class="look-meta">
+                            <h3 class="look-title">Bucket Bags</h3>
+                            <span class="look-edition">[ Edition 03 ]</span>
+                        </div>
+                        <div class="look-sub">
+                            <span>Hand-Stitched Fine Calfskin</span>
+                        </div>
+                    </article>
+
+                    <!-- Look 4: Perfumes / Fragrance -->
+                    <article class="look-card">
+                        <div class="look-img-wrap">
+                            <img src="ysl.png" alt="LoveLuxe by EA Signature Perfume" class="look-img" loading="lazy" />
+                            <div class="look-overlay"></div>
+                        </div>
+                        <div class="look-meta">
+                            <h3 class="look-title">Parfum &amp; Fragrances</h3>
+                            <span class="look-edition">[ Edition 04 ]</span>
+                        </div>
+                        <div class="look-sub">
+                            <span>Rare Amber, Saffron &amp; White Florals</span>
+                        </div>
+                    </article>
+
+                    <!-- Look 5: Resort Suite -->
+                    <article class="look-card">
+                        <div class="look-img-wrap">
+                            <img src="bodycare.jpg" alt="Resort Luxury Collection" class="look-img" loading="lazy" />
+                            <div class="look-overlay"></div>
+                        </div>
+                        <div class="look-meta">
+                            <h3 class="look-title">Self &amp; Body Care</h3>
+                            <span class="look-edition">[ Edition 05 ]</span>
+                        </div>
+                        <div class="look-sub">
+                            <span>Italian Raw Slub Linen</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. THE MANIFESTO (PROMINENT HALLMARK SEAL) -->
+        <section class="manifesto-section" id="manifesto">
+            <div class="container">
+                <div class="eyebrow" style="justify-content: center;">02 / The Philosophy</div>
+                <blockquote class="manifesto-quote">
+                    “True luxury is not defined by excess, but by the daring autonomy to be oneself. At LoveLuxe by EA,
+                    <em>fashion is freedom</em>.”
+                </blockquote>
+
+                <div class="manifesto-seal-container">
+                    <!-- OFFICIAL CIRCULAR SEAL (MANIFESTO) -->
+                    <div class="loveluxe-seal seal-manifesto">
+                        <img src="loveluxe2.png" alt="LoveLuxe by EA Official Seal">
+                    </div>
+                    <span class="manifesto-author">LoveLuxe by EA — Est. 2024</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. MAISON PILLARS (SERVICES) -->
+        <section class="section-spacing" id="atelier">
+            <div class="container">
+                <div class="section-header">
+                    <div class="eyebrow">03 / Private Services</div>
+                    <h2 class="section-title">Atelier Offerings</h2>
+                    <p class="section-desc">Offering our extraordinary services, meticulously tailored to your unique
+                        requests and evolving needs.</p>
+                </div>
+
+                <div class="atelier-list">
+                    <!-- Service 01 -->
+                    <div class="atelier-row">
+                        <div class="atelier-main">
+                            <span class="atelier-num">01</span>
+                            <h3 class="atelier-name">Size &amp; Fitting</h3>
+                            <p class="atelier-detail">Individual body mapping, personalized silhouettes, exclusively to
+                                your form.</p>
+                            <div class="atelier-arrow">→</div>
+                        </div>
+                    </div>
+
+                    <!-- Service 02 -->
+                    <div class="atelier-row">
+                        <div class="atelier-main">
+                            <span class="atelier-num">02</span>
+                            <h3 class="atelier-name">Fragrance Shopping</h3>
+                            <p class="atelier-detail">Find your signature. Discover a highly curated collection of rare
+                                and luxury scents, chosen to match your unique presence and desires.</p>
+                            <div class="atelier-arrow">→</div>
+                        </div>
+                    </div>
+
+                    <!-- Service 03 -->
+                    <div class="atelier-row">
+                        <div class="atelier-main">
+                            <span class="atelier-num">03</span>
+                            <h3 class="atelier-name">Private Styling &amp; Consultation</h3>
+                            <p class="atelier-detail">Confidential, private consultations with EA to elevate your style
+                                to be more fabulous</p>
+                            <div class="atelier-arrow">→</div>
+                        </div>
+                    </div>
+
+                    <!-- Service 04 -->
+                    <div class="atelier-row">
+                        <div class="atelier-main">
+                            <span class="atelier-num">04</span>
+                            <h3 class="atelier-name">Other Services</h3>
+                            <p class="atelier-detail">Delivering extraordinary solutions designed to anticipate your
+                                requests and exceed your needs.</p>
+                            <div class="atelier-arrow">→</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CONCIERGE / EXTRAORDINARY PORTAL CTA -->
+        <section class="vip-cta" id="concierge">
+            <div class="container">
+                <div class="eyebrow" style="justify-content: center;">04 / Concierge</div>
+                <h2 class="vip-heading">
+                    Own your elegance. <br />
+                    Experience <em>freedom</em>.
+                </h2>
+                <p class="vip-desc">
+                    Access your private client portal to coordinate appointments, requests commissions, or view
+                    reserved editions.
+                </p>
+                <a href="login.html" class="btn btn-gold" style="padding: 1.4rem 3.4rem;">
+                    • Step into the extraordinary <span>→</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- 7. FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-layout">
+                <div>
+                    <div class="brand-group">
+                        <!-- FOOTER SEAL -->
+                        <div class="loveluxe-seal seal-footer">
+                            <img src="loveluxe2.png" alt="LoveLuxe by EA Official Seal">
+                        </div>
+                        <div>
+                            <span class="brand-title" style="font-size: 1.15rem;">LoveLuxe <span>by EA</span></span>
+                            <span class="brand-tagline" style="display: block;">Fashion is Freedom — Est. 2024</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc">
+                        LoveLuxe by EA is created to liberate personal expression through self-care, sophistication,
+                        elegance, and timeless gold craftsmanship.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="footer-col-title">The House</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#collections">Lookbook</a></li>
+                        <li><a href="#manifesto">The Manifesto</a></li>
+                        <li><a href="#atelier">Private Services</a></li>
+                        <li><a href="#concierge">Concierge</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-col-title">Concierge</h4>
+                    <ul class="footer-menu">
+                        <li><a href="mailto:a.loveluxe@gmail.com">a.loveluxe@gmail.com</a></li>
+                        <li><a href="tel:+639103096697">(+63) 910 309 6697</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-col-title">Social Resonances</h4>
+                    <ul class="footer-menu">
+                        <li><a href="https://www.instagram.com/loveluxeby_ea_2024?stkn=MTU5NDQ4ZndoeGxzYQ=="
+                                target="_blank" rel="noopener">Instagram ↗</a></li>
+
+                        <li><a href="https://www.tiktok.com/@loveluxebyea?_r=1&_t=ZS-9A9ZUJWlIma" target="_blank"
+                                rel="noopener">TikTok ↗</a></li>
+
+                        <li><a href="https://www.facebook.com/profile.php?id=61553197481711" target="_blank"
+                                rel="noopener">Facebook ↗</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>© 2026 LoveLuxe by EA. All rights reserved. “Fashion is Freedom”.</div>
+                <div>ESTABLISHED 2024</div>
+                <div>217 Salapungan, San Rafael, Bulacan, Philippines, 3008</div>
+                <a href="#hero" style="color: var(--accent-gold);">Back to Top ↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Script -->
+    <script src="frontend.js"></script>
+</body>
+
+</html>
